@@ -23,7 +23,7 @@ class YPLanguageWidget extends CWidget
 		
         $currentLang = Yii::app()->language;
         $languages 	 = $this->languages;
-        $this->render('ext.yiiplugins.YPLanguageWidget.view.YPLanguageWidget', 
+        $this->render('YPLanguageWidget', 
 		array('currentLang' => $currentLang, 'languages'=>$languages));
     }
 }
