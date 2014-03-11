@@ -1,4 +1,11 @@
 <?php
+/**
+ * YPLanguageWidget
+ *
+ * @author YiiPlugins.com
+ * @link http://yiiplugins.com/plugin/language-widget
+ * @license http://www.opensource.org/licenses/bsd-license.php
+ */
 class YPLanguageWidget extends CWidget
 {
 	public $languages = array(
